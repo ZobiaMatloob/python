@@ -31,3 +31,55 @@ print(s2.institute_name)
 s3 = student("Tony Blair")
 print(s3.name)
 print(s3.institute_name)
+
+# static methods 
+
+# static method is a decorator in python which is used to define a method that belongs to a class rather than an instance of the class.
+#itdoes not require an instance of the class to be called and does not have access to the instance (self) or class (cls) variables. 
+ 
+college_name = "abc college"
+def __init__(self, name , marks ,grade):
+        self.name = name
+        self.marks = marks
+        self.grade = grade
+        print("adding new student in database")
+
+
+@staticmethod
+def welcome():
+        print("Welcome to the college")
+
+
+Student.welcome()  # calling static method using class name]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
